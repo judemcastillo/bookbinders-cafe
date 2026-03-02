@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--ink: #26180f;
+	--paper: #f7f1e6;
+	--caramel: #cb9b66;
+	--olive: #5b6f4f;
+	--rust: #8d3f2f;
+	--cream: #fff7eb;
+	--caramelBlur: #f1be863d;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: var(--ink);
+	font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+	background: var(--paper);
+	min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+	letter-spacing: 0.01em;
+}
+
+.menu-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 22px 36px -28px rgba(38, 24, 15, 0.5);
+}
+.menu-card {
+	background-color: whitesmoke;
+}
+.card {
+	background-color: whitesmoke;
+}
